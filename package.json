@@ -1,0 +1,26 @@
+{
+  "name": "@grigor_baltadjian/.lotide",
+  "version": "1.0.0",
+  "description": "lotide module",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grigor-ship-it/lotide.git"
+  },
+  "author": "Grigor Baltadjian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grigor-ship-it/lotide/issues"
+  },
+  "homepage": "https://github.com/Grigor-ship-it/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}

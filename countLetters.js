@@ -1,11 +1,3 @@
-const assertEqual = function(actual, expected) {
-  let happyEmoji = String.fromCodePoint(0x1F91D);
-  let angryEmoji = String.fromCodePoint(0x1F621);
-  if (actual === expected) {
-    console.log(`${happyEmoji} Assertion Passed: [${actual}] === [${expected}]`);
-  } else console.log(`${angryEmoji} Assertion Failed: [${actual}] !== [${expected}]`);
-};
-
 const countLetters = function(string) {
   let output = {};
   
@@ -19,9 +11,11 @@ const countLetters = function(string) {
         output[word] = output[word] + 1;
       }
     }
-  } console.log(output) 
-  return output
-} 
+  } console.log(output);
+  return output;
+};
 
 
 countLetters("lighthouse in the house");
+
+module.exports = countLetters;
